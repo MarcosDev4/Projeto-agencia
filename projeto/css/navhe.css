@@ -1,0 +1,59 @@
+/* Define que o html e o body ocupam toda a altura da tela */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Aplica o fundo ao body para cobrir toda a tela */
+body {
+    background: url('../img/back.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: "poppins", sans-serif;
+}
+
+/* Estilização do contêiner */
+.container {
+    min-height: 80vh;
+    padding-top: 60px; /* Adiciona espaçamento superior para a header fixa */
+}
+
+/* Estilos para o header */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    box-sizing: border-box; /* Inclui padding na largura total */
+}
+
+/* Estilos para o logo */
+.logo {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* Estilos para a navbar */
+.navbar {
+    display: flex;
+    gap: 20px; /* Espaço entre os links */
+}
+
+.navbar a {
+    font-size: 14px;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+/* Outros estilos */
+.centro {
+    background: rgb(218, 52, 52);
+}
