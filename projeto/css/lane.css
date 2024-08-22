@@ -1,0 +1,20 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.centro{
+    background: rgb(218, 52, 52);
+    height: 20rem;
+    max-width: 900px;
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0 auto;
+}
+
+
+.centro > div{
+    background-color: black;
+    height: 10rem;
+}
